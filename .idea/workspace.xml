@@ -4,8 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9fcbc70-eec7-46c5-829d-cd359ed7c7e4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="f9fcbc70-eec7-46c5-829d-cd359ed7c7e4" name="Changes" comment="DZ1">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MealPlantMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MealPlantMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MealPlantTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MealPlantTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/POSTURLCLASS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/POSTURLCLASS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AbstractTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AbstractTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MealPlantMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MealPlantMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MealPlantTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MealPlantTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/POSTURLCLASS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/POSTURLCLASS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +35,20 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="DZ3" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -34,57 +62,64 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.MealPlantTest.ConnectUserMealPlanStatusTest">
-    <configuration name="MealPlantTest.ConnectUserMealPlanStatusTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MealPlantTest.ConnectUserMealPlanStatusCodeTest">
+    <configuration name="MealPlantTest.ConnectUserMealPlanStatusCodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DZ" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MealPlantTest" />
-      <option name="METHOD_NAME" value="ConnectUserMealPlanStatusTest" />
+      <option name="METHOD_NAME" value="ConnectUserMealPlanStatusCodeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MealPlantTest.ConnectUserMealPlanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test2.confidenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DZ" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MealPlantTest" />
-      <option name="METHOD_NAME" value="ConnectUserMealPlanTest" />
+      <option name="MAIN_CLASS_NAME" value="Test2" />
+      <option name="METHOD_NAME" value="confidenceTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MealPlantTest.ConnectUserMealPlanUsernameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test2.cuisineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DZ" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MealPlantTest" />
-      <option name="METHOD_NAME" value="ConnectUserMealPlanUsernameTest" />
+      <option name="MAIN_CLASS_NAME" value="Test2" />
+      <option name="METHOD_NAME" value="cuisineTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MealPlantTest.ConnectUserMealWithPlanGetMealPlanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test2.cuisinesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DZ" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MealPlantTest" />
-      <option name="METHOD_NAME" value="ConnectUserMealWithPlanGetMealPlanTest" />
+      <option name="MAIN_CLASS_NAME" value="Test2" />
+      <option name="METHOD_NAME" value="cuisinesTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MealPlantTest.addToMealPlanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test2.postStatus200Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DZ" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MealPlantTest" />
-      <option name="METHOD_NAME" value="addToMealPlanTest" />
+      <option name="MAIN_CLASS_NAME" value="Test2" />
+      <option name="METHOD_NAME" value="postStatus200Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MealPlantTest.ConnectUserMealPlanStatusTest" />
-        <item itemvalue="JUnit.MealPlantTest.ConnectUserMealWithPlanGetMealPlanTest" />
-        <item itemvalue="JUnit.MealPlantTest.ConnectUserMealPlanUsernameTest" />
-        <item itemvalue="JUnit.MealPlantTest.ConnectUserMealPlanTest" />
-        <item itemvalue="JUnit.MealPlantTest.addToMealPlanTest" />
+        <item itemvalue="JUnit.MealPlantTest.ConnectUserMealPlanStatusCodeTest" />
+        <item itemvalue="JUnit.Test2.postStatus200Test" />
+        <item itemvalue="JUnit.Test2.confidenceTest" />
+        <item itemvalue="JUnit.Test2.cuisineTest" />
+        <item itemvalue="JUnit.Test2.cuisinesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -109,6 +144,21 @@
       <option name="presentableId" value="Default" />
       <updated>1660475930797</updated>
     </task>
+    <task id="LOCAL-00001" summary="Start">
+      <created>1660671646389</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660671646389</updated>
+    </task>
+    <task id="LOCAL-00002" summary="DZ1">
+      <created>1660671772318</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660671772318</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,10 +166,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="DZ3" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Start" />
+    <MESSAGE value="DZ1" />
+    <option name="LAST_COMMIT_MESSAGE" value="DZ1" />
   </component>
 </project>
