@@ -11,30 +11,31 @@ public class Test2 extends POSTURLCLASS{
 
     void getStatus405Test(){
         given()
+                .spec(requestSpecification)
                 .when()
-                .get(getBaseUrl() + "?apiKey=" + getApiKey())
+                .get(getBaseUrl())
                 .then()
-                .statusCode(405);
+                .spec(responseSpecification405);
     }
 
     @Test
 
     void postStatus200Test(){
         given()
-                .queryParam("apiKey", getApiKey())
+                .spec(requestSpecification)
                 .contentType("application/x-www-form-urlencoded")
                 .formParam("title", "Homemade Garlic and Basil French Fries")
                 .when()
                 .post(getBaseUrl())
                 .then()
-                .statusCode(200);
+                .spec(responseSpecification200);
     }
 
     @Test
 
     void confidenceTest(){
         JsonPath response = given()
-                .queryParam("apiKey", getApiKey())
+                .spec(requestSpecification)
                 .contentType("application/x-www-form-urlencoded")
                 .formParam("title", "Homemade Garlic and Basil French Fries")
                 .when()
@@ -48,7 +49,7 @@ public class Test2 extends POSTURLCLASS{
 
     void cuisineTest(){
         JsonPath response = given()
-                .queryParam("apiKey", getApiKey())
+                .spec(requestSpecification)
                 .contentType("application/x-www-form-urlencoded")
                 .formParam("title", "Homemade Garlic and Basil French Fries")
                 .when()
@@ -62,6 +63,7 @@ public class Test2 extends POSTURLCLASS{
 
     void cuisinesTest(){
         JsonPath respinse = given()
+                .spec(requestSpecification)
                 .queryParam("apiKey", getApiKey())
                 .contentType("application/x-www-form-urlencoded")
                 .formParam("title", "Homemade Garlic and Basil French Fries")

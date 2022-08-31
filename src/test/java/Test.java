@@ -14,31 +14,46 @@ public class Test extends AbstractTest{
 
     @org.junit.jupiter.api.Test
 
+    void getStatus405Test(){
+        given()
+                .spec(requestSpecification)
+                .when()
+                .post(getBaseUrl())
+                .then()
+                .spec(responseSpecification405);
+    }
+
+    @org.junit.jupiter.api.Test
+
+
     void getStatus200Test(){
         given()
+                .spec(requestSpecification)
                 .when()
-                .get(getBaseUrl() + "?query=pasta&number=1" + "&apiKey=" + getApiKey()).
+                .get(getBaseUrl()).
                 then()
-                .statusCode(200);
+                .spec(responseSpecification200);
     }
 
     @org.junit.jupiter.api.Test
 
     void getNumberTest(){
         JsonPath response = given()
+                .spec(requestSpecification)
                 .when()
-                .get(getBaseUrl() + "?query=pasta&number=1" + "&apiKey=" + getApiKey())
+                .get(getBaseUrl())
                 .body()
                 .jsonPath();
-        assertThat(response.get("number"), equalTo(1));
+        assertThat(response.get("number"), equalTo(10));
     }
 
     @org.junit.jupiter.api.Test
 
     void getOffsetTest(){
         JsonPath response = given()
+                .spec(requestSpecification)
                 .when()
-                .get(getBaseUrl() + "?query=pasta&number=1" + "&apiKey=" + getApiKey())
+                .get(getBaseUrl())
                 .body()
                 .jsonPath();
         assertThat(response.get("offset"), equalTo(0));
@@ -48,30 +63,24 @@ public class Test extends AbstractTest{
 
     void getTitleNameTest(){
         JsonPath respone = given()
+                .spec(requestSpecification)
                 .when()
-                .get(getBaseUrl() + "?query=pasta&number=1" + "&apiKey=" + getApiKey())
+                .get(getBaseUrl())
                 .body()
                 .jsonPath();
-        assertThat(respone.get("results[0].title"), equalTo("Pasta With Tuna"));
+        assertThat(respone.get("results[0].title"), equalTo("Cauliflower, Brown Rice, and Vegetable Fried Rice"));
     }
 
     @org.junit.jupiter.api.Test
 
     void getIDTest(){
         JsonPath respone = given()
+                .spec(requestSpecification)
                 .when()
-                .get(getBaseUrl() + "?query=pasta&number=1" + "&apiKey=" + getApiKey())
+                .get(getBaseUrl())
                 .body()
                 .jsonPath();
-        assertThat(respone.get("results[0].id"), equalTo(654959));
+        assertThat(respone.get("results[0].id"), equalTo(716426));
     }
-@org.junit.jupiter.api.Test
 
-    void getStatus405Test(){
-        given()
-                .when()
-                .post(getBaseUrl() + "?apiKey=" + getApiKey())
-                .then()
-                .statusCode(405);
-    }
 }
